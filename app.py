@@ -7,7 +7,7 @@ from scipy.sparse import hstack
 #cargamos los datos 
 model = joblib.load('model.pkl')
 vectorizer = joblib.load('vectorizer.pkl')
-label_encoder=  joblib.load('label_encoder.pkl')
+label_encoder=  joblib.load('le.pkl')
 
 st.title('Predicción de enfermedades a partir de síntomas')
 
