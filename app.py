@@ -5,9 +5,9 @@ import sklearn
 from scipy.sparse import hstack
 
 #cargamos los datos 
-model = joblib.load('/content/drive/MyDrive/Disease symptoms/model.pkl')
-vectorizer = joblib.load('/content/drive/MyDrive/Disease symptoms/vectorizer.pkl')
-label_encoder=  joblib.load('/content/drive/MyDrive/Disease symptoms/label_encoder.pkl')
+model = joblib.load('model.pkl')
+vectorizer = joblib.load('vectorizer.pkl')
+label_encoder=  joblib.load('label_encoder.pkl')
 
 st.title('Predicción de enfermedades a partir de síntomas')
 
